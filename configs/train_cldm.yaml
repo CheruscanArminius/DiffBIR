@@ -21,6 +21,8 @@ lightning:
     precision: 32
     # Indices of GPUs used for training.
     gpus: [0, 1, 2, 3, 4, 5]
+    # Number of GPU nodes
+    num_nodes: 1
     # Path to save logs and checkpoints.
     default_root_dir: 
     # Max number of training steps (batches).
